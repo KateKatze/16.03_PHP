@@ -38,7 +38,7 @@ if(mysqli_num_rows($result)>0){
         <!-- <div class="mb-3">
             <a href="create.php"><button class="btn btn-primary" type="button">Add product</button></a>
         </div> -->
-        <h2 class="text-center mb-5">Dishes</h2>
+        <h2 class="text-center display-6 mb-5">Dishes</h2>
         <table class="table table-border">
             <thead class="table-secondary">
                 <tr>
