@@ -16,7 +16,7 @@
     if(isset($_GET['id'])){
         $rest = "SELECT * FROM dishes WHERE dishID = {$_GET['id']}";
         $result = mysqli_query($connect, $rest);
-        while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+        while($row = mysqli_fetch_array($result)){
             echo "<div class='container'> <h3 class='display-5 mb-3'> " .$row['name']. " </h3> <img src='".$row['image']."' style='width: 25%;'> <p class='lead mt-3'> ".$row['meal_description']."</p> </div>";
         }
     }   
