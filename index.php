@@ -13,7 +13,7 @@ if(mysqli_num_rows($result)>0){
             <td class='px-3'>".$row['name']."</td>
             <td class='px-3'>".$row['price']."</td>
             <td class='px-3'>".$row['meal_description']."</td>
-            <td class='px-3'><a class='btn btn-secondary' href='update.php?id=".$row['dishID']."'>Show details</a></td>
+            <td class='px-3'><a class='btn btn-secondary' href='infopage.php?id=".$row['dishID']."'>Show details</a></td>
         </tr>";
     }
 } else {
