@@ -13,8 +13,6 @@
 
     require_once 'actions/db_connect.php';
 
-    $empst="";
-
     if(isset($_GET['id'])){
         $rest = "SELECT * FROM dishes WHERE dishID = {$_GET['id']}";
         $result = mysqli_query($connect, $rest);
