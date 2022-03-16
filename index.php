@@ -12,7 +12,6 @@ if(mysqli_num_rows($result)>0){
             <td class='px-3'><img class='img-thumbnail' style='width: 100px;' src='".$row['image']."'></td>
             <td class='px-3'>".$row['name']."</td>
             <td class='px-3'>".$row['price']."</td>
-            <td class='px-3'>".$row['meal_description']."</td>
             <td class='px-3'><a class='btn btn-secondary' href='infopage.php?id=".$row['dishID']."'>Show details</a></td>
         </tr>";
     }
@@ -45,7 +44,6 @@ if(mysqli_num_rows($result)>0){
                     <th class="px-3">Image</th>
                     <th class="px-3">Name</th>
                     <th class="px-3">Price</th>
-                    <th class="px-3">Description</th>
                     <th class="px-3">Details</th>
                 </tr>
             </thead>
