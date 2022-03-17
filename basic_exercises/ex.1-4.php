@@ -10,6 +10,27 @@ $name = "Kate";
 
        echo "<br><br><br>";
 
+
+$name = "Kate";
+$i = 0;
+
+while ($i < 50) {
+    $i++;
+    echo "$name <br>";
+}
+
+echo "<br><br><br>";
+
+$name = "Kate";
+$i = 0;
+
+do {
+    echo "$name <br>";
+    $i++;    
+} while ($i < 50);
+
+echo "<br><br><br>";
+
 /* ex. 2 */
 
 $array = array(1,2,3,4,5,6,7,8,9,0);
@@ -20,6 +41,13 @@ $array = array(1,2,3,4,5,6,7,8,9,0);
        }
 
        echo "<br><br><br>";
+
+for($i=0; $i<10; $i++){
+    $num[$i] = rand(1, 100);
+}
+echo "<br>";
+print_r($num);
+echo "<br><br><br>";
 
 /* ex. 3 */
 
